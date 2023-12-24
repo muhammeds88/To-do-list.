@@ -1,5 +1,5 @@
 name = input('Enter your name: ')
-greeting= (f"Hello! Good Morning {name} how are you..\n")
+greeting = f"Hello! Good Morning {name} how are you..\n"
 print(greeting.capitalize())
 
 ready = input('Are you ready for writing your daily tasks?(y or n)...')
