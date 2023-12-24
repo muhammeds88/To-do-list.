@@ -30,7 +30,7 @@ while True:
 choice = input('\nDo you want to write your Tomorrows Tasks? (y or n) ').lower()
 
 if choice == 'n'.lower():
-    print("\nToday's Task's are.\n")
+    print("\nToday's Task's are.")
     for i, task in enumerate(todays_tasks, start=1):
         print("You want to ", task)
     quit
@@ -55,12 +55,12 @@ elif choice == 'y'.lower():
 choice2 = input("\nDo you want to enter day after Tomorrow's Task's (y or n) ").lower()
 
 if choice2 == 'n'.lower():
-    print("\nYour today's tasks are: \n")
+    print("\nYour today's tasks are: ")
 
     for i, task in enumerate(todays_tasks, start=1):
         print("You want to ", task)
 
-    print("\nYour tomorrows tasks are: \n")
+    print("\nYour tomorrows tasks are: ")
 
     for i, task2 in enumerate(tomorrow_tasks, start=1):
         print("You want to ", task2)
