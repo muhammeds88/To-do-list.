@@ -67,7 +67,7 @@ if choice2 == 'n'.lower():
 
 
 elif choice2 == 'y'.lower():
-    print("\nEnter your Day After Tomorrow's Tasks\n")
+    print("Enter your Day After Tomorrow's Tasks\n")
 
     while True:
         task3 = input("Enter your Day After Tomorrow's Tasks here: ")
