@@ -1,5 +1,6 @@
 name = input('Enter your name: ')
-print(f"Hello! Good Morning {name} how are you..\n").capitalize()
+greeting= (f"Hello! Good Morning {name} how are you..\n")
+print(greeting.capitalize())
 
 ready = input('Are you ready for writing your daily tasks?(y or n)...')
 if ready == 'n':
