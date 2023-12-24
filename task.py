@@ -30,7 +30,7 @@ while True:
 choice = input('\nDo you want to write your Tomorrows Tasks? (y or n) ').lower()
 
 if choice == 'n'.lower():
-    print("\nToday's Task's are.")
+    print("\nToday's Task's are.\n")
     for i, task in enumerate(todays_tasks, start=1):
         print("You want to ", task)
     quit
