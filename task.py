@@ -45,7 +45,7 @@ elif choice == 'y'.lower():
             for i, task in enumerate(todays_tasks, start=1):
                 print("You want to ", task)
 
-            print("\nTomorrow's Task are: ")
+            print("Tomorrow's Task are: \n")
             for i, task2 in enumerate(tomorrow_tasks, start=1):
                 print("You want to ", task2)
 
