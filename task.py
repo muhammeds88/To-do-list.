@@ -1,6 +1,6 @@
 name = input('Enter your name: ')
 greeting = f"Hello! Good Morning {name} how are you..\n"
-print(greeting.capitalize())
+print(greeting.title())
 
 ready = input('Are you ready for writing your daily tasks?(y or n)...')
 if ready == 'n':
